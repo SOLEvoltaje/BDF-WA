@@ -1,0 +1,61 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "office.tmj": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 517.3333333333334,
+                "y": 468
+            }
+        },
+        "office.tmj#WA_Decoration": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_Exterior": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_Logo_Long": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_Miscellaneous": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_Other_Furniture": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_Room_Builder": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_Seats": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_Special_Zones": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_Tables": {
+            "scaleInDock": 1
+        },
+        "office.tmj#WA_User_Interface": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "C:/Users/Danvegamo/Downloads",
+    "map.height": 34,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 60,
+    "openFiles": [
+    ],
+    "project": "BDF.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx"
+}
