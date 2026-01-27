@@ -14,15 +14,15 @@
         },
         "bdf.tmx": {
             "expandedGroupLayers": [
+                8,
                 2,
-                6,
-                8
+                6
             ],
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1424,
-                "y": 520
+                "x": 2382,
+                "y": 1188
             }
         },
         "bdf.tmx#BDF_Tropical": {
@@ -46,12 +46,22 @@
             "scaleInDock": 1
         },
         "office.tmj": {
-            "scale": 0.125,
+            "expandedGroupLayers": [
+                55,
+                66
+            ],
+            "scale": 1,
             "selectedLayer": 12,
             "viewCenter": {
-                "x": 3480,
-                "y": 2672
+                "x": 960,
+                "y": 1439.5
             }
+        },
+        "office.tmj#Equipamiento Solero": {
+            "scaleInDock": 1
+        },
+        "office.tmj#Terreno": {
+            "scaleInDock": 1
         },
         "office.tmj#WA_Decoration": {
             "scaleInDock": 1
