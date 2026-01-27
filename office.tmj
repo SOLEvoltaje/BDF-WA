@@ -128,7 +128,7 @@
                  "name":"floor2",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":31,
                  "x":0,
                  "y":0
@@ -136,7 +136,7 @@
          "name":"floor",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -316,7 +316,7 @@
          "name":"furniture",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -538,7 +538,7 @@
          "name":"above",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
