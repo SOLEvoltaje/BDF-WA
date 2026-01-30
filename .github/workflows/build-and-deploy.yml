@@ -90,4 +90,3 @@ jobs:
           BRANCH: gh-pages
           FOLDER: dist/
           BASE_BRANCH: master
-
