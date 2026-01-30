@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "bdf.tmx",
+    "activeFile": "office.tmj",
     "expandedProjectPaths": [
         "."
     ],
@@ -14,15 +14,15 @@
         },
         "bdf.tmx": {
             "expandedGroupLayers": [
-                8,
                 2,
+                8,
                 6
             ],
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 2382,
-                "y": 1188
+                "x": 962,
+                "y": 543
             }
         },
         "bdf.tmx#BDF_Tropical": {
@@ -48,13 +48,14 @@
         "office.tmj": {
             "expandedGroupLayers": [
                 55,
+                52,
                 66
             ],
-            "scale": 1,
-            "selectedLayer": 12,
+            "scale": 1.5,
+            "selectedLayer": 1,
             "viewCenter": {
                 "x": 960,
-                "y": 1439.5
+                "y": 1439.6666666666665
             }
         },
         "office.tmj#Equipamiento Solero": {
@@ -95,9 +96,11 @@
             "scaleInDock": 1
         }
     },
+    "last.exportedFilePath": "C:/Users/Danvegamo/Documents/BDF-WA",
     "last.externalTilesetPath": "C:/Users/Danvegamo/Documents/BDF-WA/tilesets",
     "last.imagePath": "C:/Users/Danvegamo/Documents/BDF-WA/tilesets",
     "map.height": 34,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
     "map.lastUsedFormat": "tmx",
     "map.width": 60,
     "openFiles": [
@@ -106,8 +109,8 @@
     ],
     "project": "BDF.tiled-project",
     "recentFiles": [
-        "office.tmj",
-        "bdf.tmx"
+        "bdf.tmx",
+        "office.tmj"
     ],
     "tileset.embedInMap": true,
     "tileset.lastUsedFilter": "All Files (*)",
