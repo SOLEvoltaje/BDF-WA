@@ -14,8 +14,8 @@
         },
         "bdf.tmx": {
             "expandedGroupLayers": [
-                2,
                 8,
+                2,
                 6
             ],
             "scale": 0.5,
@@ -47,12 +47,10 @@
         },
         "office.tmj": {
             "expandedGroupLayers": [
-                55,
-                52,
                 66
             ],
             "scale": 1.5,
-            "selectedLayer": 1,
+            "selectedLayer": 4,
             "viewCenter": {
                 "x": 960,
                 "y": 1439.6666666666665
