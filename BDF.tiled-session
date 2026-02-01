@@ -14,8 +14,8 @@
         },
         "bdf.tmx": {
             "expandedGroupLayers": [
-                8,
                 2,
+                8,
                 6
             ],
             "scale": 0.5,
@@ -91,6 +91,9 @@
             "scaleInEditor": 1
         },
         "office.tmj#WA_User_Interface": {
+            "scaleInDock": 1
+        },
+        "office.tmj#arboles": {
             "scaleInDock": 1
         }
     },
