@@ -14,8 +14,8 @@
         },
         "bdf.tmx": {
             "expandedGroupLayers": [
-                2,
                 8,
+                2,
                 6
             ],
             "scale": 0.5,
@@ -47,7 +47,8 @@
         },
         "office.tmj": {
             "expandedGroupLayers": [
-                66
+                66,
+                51
             ],
             "scale": 1.5,
             "selectedLayer": 4,
@@ -94,6 +95,9 @@
             "scaleInDock": 1
         },
         "office.tmj#arboles": {
+            "scaleInDock": 1
+        },
+        "office.tmj#domo": {
             "scaleInDock": 1
         }
     },
