@@ -14,9 +14,9 @@
         },
         "bdf.tmx": {
             "expandedGroupLayers": [
-                6,
                 2,
-                8
+                8,
+                6
             ],
             "scale": 0.5,
             "selectedLayer": 0,
@@ -48,15 +48,15 @@
         "office.tmj": {
             "expandedGroupLayers": [
                 66,
+                52,
                 55,
-                51,
-                52
+                51
             ],
             "scale": 1,
             "selectedLayer": 13,
             "viewCenter": {
-                "x": 905.5,
-                "y": 1715
+                "x": 976,
+                "y": 1511.5
             }
         },
         "office.tmj#Equipamiento Solero": {
