@@ -52,11 +52,11 @@
                 51,
                 52
             ],
-            "scale": 0.33,
-            "selectedLayer": 7,
+            "scale": 1,
+            "selectedLayer": 13,
             "viewCenter": {
-                "x": 1006.060606060606,
-                "y": 1656.060606060606
+                "x": 905.5,
+                "y": 1715
             }
         },
         "office.tmj#Equipamiento Solero": {
@@ -97,6 +97,9 @@
             "scaleInDock": 1
         },
         "office.tmj#arboles": {
+            "scaleInDock": 1
+        },
+        "office.tmj#carteles": {
             "scaleInDock": 1
         },
         "office.tmj#domo": {
