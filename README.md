@@ -1,16 +1,32 @@
-# 🗺️ WorkAdventure Map Starter Kit
+# 🗺️ Biblioteca del Futuro - SOLE Colombia
 
-<a href="https://discord.gg/G6Xh9ZM9aR" target="blank"><img src="https://img.shields.io/discord/821338762134290432.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
-<a href="https://x.com/workadventure_" target="blank"><img src="https://img.shields.io/twitter/follow/workadventure_.svg?style=social" /></a>
-![visitors](https://vbr.nathanchung.dev/badge?page_id=workadventure.map-starter-kit&color=00cf00)
+<a href="https://solecolombia.org/" target="blank"><img src="https://solecolombia.org/wp-content/uploads/2020/09/Logo-SOLE-Colombia.png" alt="SOLE Colombia" width="200"/></a>
 
-![office map thumbnail](./office.png)
+Bienvenido a la **Biblioteca del Futuro**, un entorno virtual creado por **SOLE Colombia** para explorar y prototipar **Otros Internets Posibles**.
+
+Este espacio hace parte de nuestra investigación sobre cómo las comunidades pueden apropiarse de la tecnología para contar sus propias historias, preservar su sabiduría y resolver preguntas compartidas.
+
+## 🌟 La Visión: Otros Internets Posibles
+
+En SOLE Colombia, creemos que el internet no debe ser solo un espacio de consumo, sino un sistema generativo híbrido donde la autonomía, la equidad y la imaginación colectiva son protagonistas.
+
+A través de nuestros **SOLE Labs**, transformamos espacios conectados en centros comunales de desarrollo de conocimiento, donde:
+- **Se fomenta la curiosidad:** El aprendizaje nace de preguntas grandes y compartidas.
+- **Se valora la sabiduría local:** Reconocemos el poder inherente de cada comunidad.
+- **Se redefine la conectividad:** Buscamos formas de red que sirvan a las personas, no al revés.
+
+## 🗺️ Sobre este mapa
+
+Este mapa de WorkAdventure sirve como un "hub" virtual para la comunidad. Aquí podrás:
+- Conectarte con otros miembros de la red SOLE.
+- Participar en eventos y talleres.
+- Explorar recursos sobre nuestra metodología y proyectos.
+
+---
+
+## 🚀 WorkAdventure Starter Kit (Original Info below)
 
 🗺️ This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
-
-📚 To understand how to use this starter kit, follow [our tutorial](https://docs.workadventu.re/map-building/tiled-editor/).
-
-👨🏻‍🔧 If you have any questions, feel free to ask in the [WorkAdventure office](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village).
 
 ## 🚀 Upload your map
 
