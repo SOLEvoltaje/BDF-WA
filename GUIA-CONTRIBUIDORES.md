@@ -153,7 +153,7 @@ Puedes usar herramientas de IA para generar la base de tus assets y luego refina
 
 Nano Banana es una herramienta online de generación de pixel art con IA, ideal para tilesets de RPG y juegos top-down.
 
-1. Ve a: https://nanobanana.com (o busca "Nano Banana pixel art generator")
+1. Ve a: https://labs.google/flow/about (Entra con tu cuenta de google)
 2. Crea una cuenta gratuita.
 3. En el campo de prompt usa la plantilla de abajo.
 4. Selecciona resolución de salida: **512×512 px** o múltiplo de 32.
@@ -165,7 +165,7 @@ Nano Banana es una herramienta online de generación de pixel art con IA, ideal 
 
 | Herramienta | Tipo | Costo | Link |
 |---|---|---|---|
-| Nano Banana | Online | Freemium | nanobanana.com |
+| Flow | Online | Freemium | labs.google/flow |
 | Itch.io AI Pixel | Online | Gratis | itch.io |
 | Leonardo.ai | Online | Freemium | leonardo.ai |
 | Stable Diffusion | Local | Gratis | github.com/AUTOMATIC1111 |
