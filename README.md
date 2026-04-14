@@ -1,110 +1,86 @@
-# 🗺️ Biblioteca del Futuro - SOLE Colombia
+# 🗺️ Biblioteca del Futuro — SOLE Colombia
 
 <a href="https://solecolombia.org/" target="blank"><img src="https://solecolombia.org/wp-content/uploads/2020/09/Logo-SOLE-Colombia.png" alt="SOLE Colombia" width="200"/></a>
 
-Bienvenido a la **Biblioteca del Futuro**, un entorno virtual creado por **SOLE Colombia** para explorar y prototipar **Otros Internets Posibles**.
+Bienvenido a la **Biblioteca del Futuro (BDF)**, un entorno virtual creado por **SOLE Colombia** para explorar y prototipar **Otros Internets Posibles**. 
 
-Este espacio hace parte de nuestra investigación sobre cómo las comunidades pueden apropiarse de la tecnología para contar sus propias historias, preservar su sabiduría y resolver preguntas compartidas.
-
-## 🌟 La Visión: Otros Internets Posibles
-
-En SOLE Colombia, creemos que el internet no debe ser solo un espacio de consumo, sino un sistema generativo híbrido donde la autonomía, la equidad y la imaginación colectiva son protagonistas.
-
-A través de nuestros **SOLE Labs**, transformamos espacios conectados en centros comunales de desarrollo de conocimiento, donde:
-- **Se fomenta la curiosidad:** El aprendizaje nace de preguntas grandes y compartidas.
-- **Se valora la sabiduría local:** Reconocemos el poder inherente de cada comunidad.
-- **Se redefine la conectividad:** Buscamos formas de red que sirvan a las personas, no al revés.
-
-## 🗺️ Sobre este mapa
-
-Este mapa de WorkAdventure sirve como un "hub" virtual para la comunidad. Aquí podrás:
-- Conectarte con otros miembros de la red SOLE.
-- Participar en eventos y talleres.
-- Explorar recursos sobre nuestra metodología y proyectos.
+Este espacio es un "hub" comunitario donde investigamos cómo las comunidades pueden apropiarse de la tecnología para contar sus historias, preservar su sabiduría y resolver preguntas compartidas.
 
 ---
 
-## 🚀 WorkAdventure Starter Kit (Original Info below)
+## 🌟 Nuestra Visión: Otros Internets Posibles
 
-🗺️ This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+En SOLE Colombia, creemos que el internet es un sistema generativo híbrido donde la autonomía, la equidad y la imaginación colectiva son protagonistas.
 
-## 🚀 Upload your map
+A través de los **SOLE Labs**, transformamos espacios conectados en centros de conocimiento:
+- **Fomentamos la curiosidad:** El aprendizaje nace de preguntas grandes.
+- **Valoramos la sabiduría local:** El poder inherente de cada comunidad.
+- **Redefinimos la conectividad:** Redes que sirven a las personas, no al revés.
 
-In the `.env` file, you can set your upload strategy to `GH_PAGES` (default) or `MAP_STORAGE`. Simply comment out the option you don't want to use.
+---
 
-Uploading a map using [GitHub Pages](https://docs.github.com/pages) will host your project on GitHub servers, and it's the most straightforward way to add new maps to your world.
+## 🛠️ Guía Rápida para Contribuidores
 
-Uploading a map using the [WA map storage](https://docs.workadventu.re/map-building/tiled-editor/publish/wa-hosted) will host your project on WA servers. It's a bit more difficult to set up, but it comes with great advantages, like being able to have private repositories.
+Si quieres agregar objetos, edificios o nuevas zonas al mapa, hemos preparado una guía detallada paso a paso:
 
-## 🗂️ Structure
+👉 **[LEER GUÍA COMPLETA DE CONTRIBUIDORES](./GUIA-CONTRIBUIDORES.md)**
 
-We recommend following this file structure:
+### Resumen de pasos:
+1. **Instala las herramientas:** Git, Tiled y Aseprite (o Libresprite).
+2. **Clona este repositorio:** `git clone https://github.com/SOLEvoltaje/BDF-WA.git`
+3. **Crea tus assets:** Usa IA (Nano Banana) o dibuja en pixel art (32x32px).
+4. **Agrega al mapa:** Abre `office.tmj` en Tiled y añade tus tilesets en la carpeta `tilesets/`.
+5. **Sube tus cambios:** Usa los comandos de Git para compartir tu trabajo.
 
-- *`public/`*: Static files like PDFs or audio files
-- *`src/`*: Script files or design source files
-- *`tilesets/`*: All PNG tilesets
+---
 
-> [!TIP]
-> - If you want to use more than one map file, just add the new map file in the root folder (we recommend creating a copy of *office.tmj* and editing it to avoid any mistakes).
-> - We recommend using **512x512** images for the map thumbnails.
-> - If you are going to create custom websites to embed in the map, please reference the HTML files in the `input` option in *vite.config.js*.
+## 🚀 Cómo empezar (Desarrolladores)
 
-## 📜 Requirements
-
-- Node.js version >= 18
-
-## Installation and testing
-
-## 🛠️ Installation and Testing
-
-With npm installed (which comes with [Node.js](https://nodejs.org/en/)), run the following command in the root directory of the project:
+### Instalación
+Asegúrate de tener [Node.js](https://nodejs.org/) instalado. En la carpeta del proyecto, ejecuta:
 
 ```bash
 npm install
 ```
 
-Then, you can test your map by running:
+### Probar el mapa localmente
+Para ver tus cambios en tiempo real en el navegador:
 
 ```bash
 npm run dev
 ```
 
-You can also test the optimized map as it will be in production by running:
+### Subir tus cambios al Repositorio
+Cuando hayas terminado de editar el mapa en Tiled:
 
 ```bash
-npm run build
-npm run prod
+# 1. Trae los últimos cambios del equipo
+git pull origin master
+
+# 2. Agrega tus archivos nuevos o modificados
+git add .
+
+# 3. Guarda tus cambios con un mensaje descriptivo
+git commit -m "feat: agregada nueva zona de lectura en el domo"
+
+# 4. Sube al repositorio
+git push origin master
 ```
 
-You can manually [upload your map to the WA Map Storage]([WA Map Storage](https://github.com/workadventure/upload-maps)) by running:
+---
 
-```bash
-npm run upload
-```
+## 🗂️ Estructura del Proyecto
 
-The three important variables that control the upload feature are:
+- **`office.tmj`**: Mapa principal del mundo BDF.
+- **`tilesets/`**: AQUÍ van todas las imágenes PNG y archivos `.tsx`.
+- **`src/`**: Scripts y lógica del mundo.
+- **`public/`**: Archivos estáticos (imágenes, PDFs, audios).
 
-1. `MAP_STORAGE_URL` *(local: created in .env by the upload command / CI: to be added as a Github secret optionally)*
-2. `MAP_STORAGE_API_KEY` *(local: created in .env.secret by the upload command / CI: to be added as a Github secret)*
-3. `UPLOAD_DIRECTORY` *(local: created in .env by the upload command / CI: to be added as a Github secret optionally)*
+---
 
-Read [the documentation](https://docs.workadventu.re/map-building/tiled-editor/publish/wa-hosted) to learn more about the upload feature.
+## 📜 Licencias
+Este proyecto utiliza múltiples licencias para proteger el código, el mapa y los assets. Consulta los archivos `LICENSE.code`, `LICENSE.map` y `LICENSE.assets` para más detalles.
 
-## 📜 Licenses
+---
 
-This project contains multiple licenses as follows:
-
-* [Code license](./LICENSE.code) *(all files except those for other licenses)*
-* [Map license](./LICENSE.map) *(`office.tmj` and the map visual as well)*
-* [Assets license](./LICENSE.assets) *(the files inside the `tilesets/` folder)*
-
-> [!IMPORTANT]
-> If you add third party assets in your map, do not forget to:
-> 1. Credit the author and license of a tileset with the "tilesetCopyright" property by etiding the tileset in Tiled.
-> 2. Add the tileset license text in *LICENSE.assets*.
-> 3. Credit the author and license of a map with the "mapCopyright" property in the custom properties of the map.
-> 4. Add the map license text in *LICENSE.map*.
-
-## ❓ Need Help
-
-If you have any questions or need further assistance, don't hesitate to ask either by [email](mailto:hello@workadventu.re) or [Discord](https://discord.gg/G6Xh9ZM9aR)!
+¿Tienes dudas? Únete a nuestro Discord o abre un [Issue](https://github.com/SOLEvoltaje/BDF-WA/issues) aquí en GitHub.
