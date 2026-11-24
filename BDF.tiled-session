@@ -52,10 +52,10 @@
                 55
             ],
             "scale": 1,
-            "selectedLayer": 1,
+            "selectedLayer": 13,
             "viewCenter": {
-                "x": 474,
-                "y": 437
+                "x": 862,
+                "y": 1340
             }
         },
         "office.tmj#Equipamiento Solero": {
@@ -117,13 +117,12 @@
     "map.lastUsedFormat": "tmx",
     "map.width": 60,
     "openFiles": [
-        "office.tmj",
-        "bdf.tmx"
+        "office.tmj"
     ],
     "project": "BDF.tiled-project",
     "recentFiles": [
-        "bdf.tmx",
-        "office.tmj"
+        "office.tmj",
+        "bdf.tmx"
     ],
     "tileset.embedInMap": true,
     "tileset.lastUsedFilter": "All Files (*)",
